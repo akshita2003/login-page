@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login & Signup Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('./background.jpg');
+      background-repeat: no-repeat;
+          background-size:cover; 
+          background-position:top center bottom;
+           background-attachment:fixed; 
+    }
+
+    .container {
+      width:300px;
+      height:380px;
+      
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 110px;
+      margin-left: 300px;
+    
+    
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #666;
+    }
+
+    .form-group input {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+      border: none;
+      color: #fff;
+      cursor:pointer;
+      border-radius: 4px;
+    }
+
+    .form-group button:hover {
+      background-color: #555;
+    }
+
+    .form-switch {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .form-switch a {
+      color: #00a6fb;
+      text-decoration: none;
+     
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Sign up</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="text" placeholder="Enter your full name">
+          </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+      </div>
+      <div class="form-group">
+        <button type="submit">Sign In</button>
+      </div>
+      
+      
+      <div class="form-switch">
+        <p>Already have an account?   <a href="login.html">Login </a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
